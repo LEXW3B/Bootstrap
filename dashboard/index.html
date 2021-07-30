@@ -18,98 +18,71 @@
 
 <body>
 
-    <nav class="navbar navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-            <a class="nav-item nav-link" href="#">Features</a>
-            <a class="nav-item nav-link" href="#">Pricing</a>
-            <a class="nav-item nav-link disabled" href="#">Disabled</a>
-          </div>
-        </div>
-      </nav>
+    <header class="navbar navbar-dark bg-dark p-0 flex-nowrap fixed-top shadow">
+      <a class="navbar-brand col-2 mr-0" href="#">Company name</a>
+      <input class="form-control form-control-dark" type="text" placeholder="Search" aria-label="Search"> 
+
+      <div class="navbar-nav px-3">        
+        <a class="nav-item nav-link py-0 text-nowrap"href="#">Sign out</a>        
+      </div>      
+    </header>
 
 
 
-  <header class="">
-    <a class="" href="#">Company name</a>
-    <input class="" type="text" placeholder="Search" aria-label="Search">
-    <ul class="">
-      <li class="">
-        <a class="" href="#">Sign out</a>
-      </li>
-    </ul>
-  </header>
+  
 
 
-  <nav class="">
-    <div class="">
-      <ul class="">
-        <li class="">
-          <a class="" href="#">
+  <nav class="col-2 bg-light sidebar">
+    
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link active" href="#">
             Dashboard <span class="">(current)</span>
           </a>
         </li>
-        <li class="">
-          <a class="" href="#">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
             Orders
           </a>
         </li>
-        <li class="">
-          <a class="" href="#">
-            Products
-          </a>
-        </li>
-        <li class="">
-          <a class="" href="#">
-            Customers
-          </a>
-        </li>
-        <li class="">
-          <a class="" href="#">
-            Reports
-          </a>
-        </li>
-        <li class="">
-          <a class="" href="#">
-            Integrations
-          </a>
-        </li>
       </ul>
+<!--       
+        Products
+        Customers
+        Reports
+        Integrations
+-->        
+      
 
-      <h6 class="">
+      <h6 class="sidebar-heading px-3 mt-4">
         <span>Saved reports</span>
       </h6>
-      <ul class="">
-        <li class="">
-          <a class="" href="#">
+      <ul class="nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
             Current month
           </a>
         </li>
-        <li class="">
-          <a class="" href="#">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
             Last quarter
           </a>
         </li>
-        <li class="">
-          <a class="" href="#">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
             Social engagement
           </a>
         </li>
-        <li class="">
-          <a class="" href="#">
+        <li class="nav-item">
+          <a class="nav-link" href="#">
             Year-end sale
           </a>
         </li>
       </ul>
-    </div>
+    
   </nav>
 
-  <main role="main" class="">
+  <main role="main" class="col-10 ml-auto">
     <div class="">
       <h1 class="">Dashboard</h1>
       <div class="">
@@ -307,3 +280,6 @@
 
 </body>
 </html>
+<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation"></button>
+<span class="navbar-toggler-icon"></span>
+        </button>
