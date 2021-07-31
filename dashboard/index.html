@@ -27,11 +27,6 @@
       </div>      
     </header>
 
-
-
-  
-
-
   <nav class="col-2 bg-light sidebar">
     
       <ul class="nav flex-column">
@@ -98,15 +93,15 @@
 
   <main role="main" class="col-10 ml-auto px-4">
 
-    <div class="d-flex justify-content-between align-items-center mt-3">
+    <div class="d-flex justify-content-between align-items-center mt-4 border-bottom pb-2 mb-3">
       <h1 class="h2">Dashboard</h1>
       <div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
         <div class="btn-group me-2" role="group" aria-label="First group">
-          <button type="button" class="btn btn-outline-primary">Share</button>
-          <button type="button" class="btn btn-outline-primary mr-2">Export</button>
+          <button type="button" class="btn btn-sm btn-outline-primary">Share</button>
+          <button type="button" class="btn btn-sm btn-outline-primary mr-2">Export</button>
           
           <div class="dropdown">
-            <button class="btn btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <button class="btn btn-sm btn-outline-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
               This week
             </button>
             <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton">
@@ -119,26 +114,22 @@
         
       </div>
     </div>
-     
-
-
     
-
-    <div class="">
-
-      <div class="">
-        <div class="">
-          <div class="">
-            <div class="">
-              New Comments
-            </div>
-            <div class="">
-              <h5 class="">103</h5>
-
-              <a href="#" class="">See +</a>
-            </div>
+    <section class="row"><!--quando coloca uma classe row envolvida por alguma tag o bootstrap sabe exatamente que e em uma linha -->
+      <div class="col-3">
+        <div class="card text-center " style="max-width: 18rem;">
+          <div class="card-header">New Comments</div>
+          <div class="card-body">
+            <h5 class="card-title">103</h5>
+            <a href="#" class="btn btn-link btn-lg">See +</a>
           </div>
-        </div>
+          </div>
+      </div>
+      <div class="col-9 ml-auto"> col 9</div>
+    </section>
+        
+    <div class="">
+      <div class="">
         <div class="">
 
           <ul class="" id="">
