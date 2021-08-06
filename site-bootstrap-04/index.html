@@ -1,13 +1,14 @@
 <!DOCTYPE html>
-<html>
+<html lang="pt-br">
 <head>
 	<title>Web Fundamentos</title>
 	<meta charset="UTF-8">
 	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+	<link rel="stylesheet" href="css/styles.css">
 </head>
 
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light fixed-top">
         <a class="navbar-brand" href="#">Infusion</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
@@ -46,28 +47,9 @@
 		  <p class="lead">A very artsy photo with waves crashing over rocks. So /emosh.</p>
 		  <a href="#" class="btn btn-primary btn-lg">Beer me!</a>
         </div>
-    </div>
+    </div>	
 
-
-
-
-
-    <!-- carousel -->
-    <h5>CUTTING EDGE WP BUSINESS THEME</h5>
-	<p>Gutful of bottlo no dramas he's got a massive hooroo.</p>
-	<a href="#">BUY IT NOW</a>
-
-	<h5>VERY PHOTO, SUCH WAVES, WOW.</h5>
-	<p>A very artsy photo with waves crashing over rocks. So /emosh.</p>
-	<a href="#">BEER ME!</a>
-
-
-
-
-
-	<!-- Cards -->
-
-	<section class="section-cards">
+	<section class="section-cards"><!-- Cards -->
 		<div class="container">
 			<div class="row">
 
@@ -130,45 +112,93 @@
 		</div>
 	</section>
 
+	<section class="section-articles">
+		<div class="articles-container">
+			<h2 class="container h3">Last Articles</h2>
+		</div>
+		<div class="articles-thumbs">
+			<a href="#"><img src="img/articles/01.jpg" alt=""></a>
+			<a href="#"><img src="img/articles/02.jpg" alt=""></a>
+			<a href="#"><img src="img/articles/03.jpg" alt=""></a>
+			<a href="#"><img src="img/articles/04.jpg" alt=""></a>
+			<a href="#"><img src="img/articles/05.jpg" alt=""></a>
+			<a href="#"><img src="img/articles/06.jpg" alt=""></a>
+			<a href="#"><img src="img/articles/07.jpg" alt=""></a>
+			<a href="#"><img src="img/articles/08.jpg" alt=""></a>
+			<a href="#"><img src="img/articles/09.jpg" alt=""></a>
+			<a href="#"><img src="img/articles/10.jpg" alt=""></a>
+			<a href="#"><img src="img/articles/11.jpg" alt=""></a>
+			<a href="#"><img src="img/articles/12.jpg" alt=""></a>
+		</div>
+	</section>
 
-	<!-- content -->
-	<article>
-    	
-	</article>
+	<section class="section-notebooks">
+		<div class="container">
+			<div id="carouselNote" class="carousel slide carousel-fade" data-ride="carousel">
+				<div class="carousel-inner">
+				  <div class="carousel-item active">
+					<img class="d-block w-100" src="img/slider/slide-01.png" alt="">
+				  </div>
+				  <div class="carousel-item">
+					<img class="d-block w-100" src="img/slider/slide-02.png" alt="">
+				  </div>
+				  
+				</div>
+				<a class="carousel-control-prev" href="#carouselNote" role="button" data-slide="prev">
+				  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+				  <span class="sr-only">Anterior</span>
+				</a>
+				<a class="carousel-control-next" href="#carouselNote" role="button" data-slide="next">
+				  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+				  <span class="sr-only">Próximo</span>
+				</a>
+			</div>
+		</div>
+	</section>
 
-	<article>
-        <h3>Lorem ipsum dolor sit amet consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed.</h3>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris mattis suscipit est, ut imperdiet tortor. Proin sed molestie massa. Nullam condimentum mauris et rhoncus sagittis. Sed eu metus in diam tincidunt egestas non at odio.</p>
-        
-	</article>
-
+	<section class="section-quote">
+		<div class="container">
+			<div class="row">
+				<div class="col-10 offset-1">
+					<figure>
+						<h2>Nam mi enim, auctor non ultricies a, fringilla eu risus. Praesent vitae lorem et elit tincidunt accumsan suscipit eu libero. </h2>
+						<figcaption>
+							Nam mi enim, auctor non ultricies.
+						</figcaption>
+					</figure>
+				</div>
+			</div>
+		</div>
+	</section><!-- quote -->
 	
-	<h3>Last Articles</h3>
+	<footer class="footer">
+		<div class="container">
+			<div class="row">
 
+				<div class="col-md-3">
+					<p class="logo-text">Infusion</p>
+				</div>
 
-	
-	<!-- quote -->
-	<h2>Nam mi enim, auctor non ultricies a, fringilla eu risus. Praesent vitae lorem et elit tincidunt accumsan suscipit eu libero. </h2>
-	Nam mi enim, auctor non ultricies.
-              
+				<div class="col-md-4">
+					<p>Nam mi enim, auctor non ultricies a, fringilla eu risus. Praesent vitae lorem et elit tincidunt accumsan suscipit eu libero. Maecenas diam est, venenatis vitae dui in, vestibulum mollis arcu. Donec eu nibh tincidunt, dapibus sem eu, aliquam dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum consectetur commodo eros, vitae laoreet lectus aliq</p>
+				</div>
 
-	
+				<div class="col-md-3">
+					<p>aliquam dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum consectetur commodo eros, vitae laoreet lectus aliq</p>
+				</div>
 
-	<!-- footer -->
-	Infusion
-	<p>Nam mi enim, auctor non ultricies a, fringilla eu risus. Praesent vitae lorem et elit tincidunt accumsan suscipit eu libero. Maecenas diam est, venenatis vitae dui in, vestibulum mollis arcu. Donec eu nibh tincidunt, dapibus sem eu, aliquam dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum consectetur commodo eros, vitae laoreet lectus aliq</p>
-
-	<p>aliquam dolor. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Vestibulum consectetur commodo eros, vitae laoreet lectus aliq</p>
-
-	<ul>
-	    <li><a href="#">List One</a></li>
-	    <li><a href="#">Page Two</a></li>
-	    <li><a href="#">Design</a></li>
-	    <li><a href="#">Work</a></li>
-	    <li><a href="#">Contact Me</a></li>
-	</ul>
-	
-
+				<div class="col-md-2">
+					<ul>
+						<li><a href="#">List One</a></li>
+						<li><a href="#">Page Two</a></li>
+						<li><a href="#">Design</a></li>
+						<li><a href="#">Work</a></li>
+						<li><a href="#">Contact Me</a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+	</footer><!-- footer -->        
 	
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
