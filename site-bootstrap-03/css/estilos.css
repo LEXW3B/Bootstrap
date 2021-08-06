@@ -79,3 +79,46 @@ body{
 .footer .icon-link{
     font-size: 1.5rem;
 }
+
+
+@media screen and (min-width: 992px){
+    body{
+        padding-top: 0;
+        padding-left: 35.33%;
+    }
+    #sideNav{
+        top: 0;
+        left: 0;
+        display: flex;
+        flex-direction: column;
+        width: 33.33%;
+        height: 100vh;
+        background-image: url(images/overlay.png), url(../images/bg.jpg);
+        background-attachment: scroll;
+        background-position: top, left;
+        background-repeat: repeat, no-repeat;
+        background-size: auto, auto 100%;
+        color: rgba(255, 255, 255, .5);
+        text-align: center;
+    }
+    .img-profile{
+        max-width: 100%;
+        max-height: auto;
+        margin: 2rem auto;
+    }
+    #sideNav .navbar-collapse{
+        display: flex;
+        align-items: flex-start;
+        width: 100%;
+        margin-bottom: auto;
+    }
+    #sideNav navbar-nav{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+}
+
+
+
+
