@@ -2,3 +2,32 @@
 body{
     padding-top: 4rem;
 }
+/*menu*/
+.navbar{
+    padding: 0;
+}
+.navbar-brand{
+    background-color: #63c6ae;
+    text-align: right;
+    min-width: 9rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+    text-transform: uppercase;
+    font-size: 1.5rem;
+    font-weight: bold;
+}.navbar-light .navbar-brand{/*para resolver a cor do logotipo, se precisar coloca hover:white*/
+    color: white;
+}
+.nav-link{/*conf. do menu hamburger quando click e ele desce*/
+    display: block;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px dotted rgba(255, 255, 255, .2);
+    text-transform: uppercase;
+    font-size: .8rem;
+    transition: all .5s ease;
+}
+.navbar-nav{
+    background-color: #242a2c;
+    text-align: center;
+}
