@@ -5,6 +5,8 @@ body{
 /*menu*/
 .navbar{
     padding: 0;
+    background-color: white;
+    box-shadow: 0 10px 12px rgba(0, 0, 0, .2);
 }
 .navbar-brand{
     background-color: #63c6ae;
@@ -89,7 +91,10 @@ body{
     background-color: white;
     border-bottom: 1px solid rgba(0, 0, 0, .15);
 }
-
+/*texto*/
+ .section-content{
+     background-color: #f8f9f9;
+ }
 
 
 
