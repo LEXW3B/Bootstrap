@@ -121,6 +121,43 @@ body{
     
 }
 /*notebook*/
+.section-notebooks{
+    background-color: #242a2c;
+    padding: 125px 0 100px;
+    width: 100%;
+}
+.section-notebooks .carousel-item{
+    padding: 1rem;
+}
+@media screen and(min-width: 991px) {
+    .section-notebooks .carousel-item{
+        padding: 5rem;
+    }
+        
+}
+/*quote---depoimento*/
+.section-quote{
+    background-color: #63c6ae;
+    padding: 50px 0;
+    border-bottom: 12px solid #48b9a1;
+    color: white;
+    text-align: center;
+}
+/*footer---rodape*/
+.footer{
+    background-color: #242a2c;
+    padding: 50px 0 250px;
+    color: #454e51;
+}
+.footer-links{
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+.footer-links a{
+    color: inherit;
+    text-decoration: none;
+}
 
 
 
