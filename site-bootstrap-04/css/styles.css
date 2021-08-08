@@ -95,7 +95,32 @@ body{
  .section-content{
      background-color: #f8f9f9;
  }
-
+ /*grid de fotos*/
+.articles-container{
+    background-color: #63c6ae;
+    padding: 1.5rem;
+    color: white;
+    text-transform: uppercase;
+}
+.articles-container .h3{
+    margin-bottom: 0;
+}
+.articles-thumbs{
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr) );
+    grid-gap: 0;
+}
+.articles-thumbs img{
+    display: block;
+    width: 100%;
+}
+@media screen and (min-width: 991px){
+    .articles-thumbs{
+        grid-template-columns: repeat(6, 1fr);
+    }
+    
+}
+/*notebook*/
 
 
 
